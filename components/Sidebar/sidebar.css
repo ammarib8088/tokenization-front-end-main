@@ -1,0 +1,76 @@
+.MuiPaper-root {
+  color: #9c9c9c;
+}
+.form-control-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.css-11olkh1-MuiButtonBase-root-MuiButton-root:hover{
+  background-color:#1A4A60 ;
+}
+.css-yzo94n-MuiTypography-root {
+  padding: 10px;
+}
+.css-fcswot-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+  border-radius: 15px;
+
+}
+.css-d16k7i-MuiContainer-root{
+  display: flex;
+}
+.properties-cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 2;
+}
+@media only screen and (max-width: 600px) {
+  .latest-market-div{
+    width: 100%;
+  }
+  .css-3aqtqk-MuiTypography-root{
+   max-width: 200px;
+  }
+  .css-12vwekr-MuiTypography-root {
+  max-width: 102px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .properties-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+
+  .properties-cards-container .MuiCard-root {
+    width: 100%; 
+    margin-right: 0; 
+  }
+  .properties-container{
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+  }
+  .form-control-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .css-d16k7i-MuiContainer-root {
+  margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .css-d16k7i-MuiContainer-root{
+    width:auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .css-1vdcdlw-MuiContainer-root{
+    width:100%;
+  }    
+  }
+
+
